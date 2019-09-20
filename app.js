@@ -2,7 +2,7 @@ const express = require('express')
 const app = express()
 const port = 3000
 
-const login = require('./models/login')
+const login = require('./login')
 
 app.use(express.json())
 
