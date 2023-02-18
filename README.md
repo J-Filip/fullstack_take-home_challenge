@@ -1,3 +1,3 @@
-# code-challenge
 
-Tested with node v10.16.3
+
+# First attempt - MVP
