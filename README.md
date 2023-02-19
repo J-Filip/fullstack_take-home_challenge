@@ -1,21 +1,28 @@
 
 
-# First attempt - MVP
+# Fullstack take-home coding challenge
+- GIF ??
 
-## What?
+## First solution - MVP
 
-In my first attempt I only tried to make it work. It slightly deviates from the guidelines by using cookies and server-side rendering with ejs templating. Form validation is simple so I used HTML form validation so I don't add unneceassary complexity if not needed.
+- check this branch - https://github.com/J-Filip/fullstack_take-home_challenge/tree/first_attempt_mvp
 
-The algorithm part was interesing as I don't deal with that kind of tasks much. I managed to come up with my own solution and then asked chatGPT to do it (not so shockingly, it did it waaaaay faster than I did).
-I will try to optimize it before sending the repo for review.
+## Second solution - vanilla js SPA
+
+
+- in my second attempt, I didn't change any of the backend code (strictly followed the challenge instructions) and only added one endpoint. It's a simple attempt without any framework or client-side routing. 
+
+
+## About
+
+### Backend
+### Frontend
+### Algorithm
+### Stack
 
 ## Struggles
 
-As I am currently focused on the frontend, I had trouble with wrapping my head around sessions, tokens and middleware. Before this, I never dealt with auth, especiallly not implementing my own auth.
+## Improvements
 
-## What next?
 
-I will probably:
-  - use React on the frontend to handle routing and send requests with fetch API
-  - write tests with Jest, Mocha or simmiliar
-  - use tailwind for styling 
+## How to install
