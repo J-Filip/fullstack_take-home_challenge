@@ -4,7 +4,8 @@
   "description": "Some boilerplate for a take-home code challenge.",
   "main": "app.js",
   "scripts": {
-    "dev": "nodemon app.js"
+    "dev": "nodemon app.js",
+    "start": "node app.js"
   },
   "dependencies": {
     "body-parser": "1.19.0",
