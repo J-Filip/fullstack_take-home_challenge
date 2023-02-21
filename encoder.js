@@ -18,8 +18,6 @@ function encoder(userInput) {
       count = 1;
     }
   });
-
-  console.log(result.join(""));
   return result.join('')
 }
 
