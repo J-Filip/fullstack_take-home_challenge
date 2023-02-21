@@ -1,9 +1,3 @@
-// encoder("XXXYYCCYYYXXXXX");
-
-// Write a simple encoder() function that will accept a string and the output will represent
-// successive characters as character and single digit count.
-// For example, the string “XXXYYYYZZQXX” would be encoded as “X3Y4Z2Q1X2”. You can assume the string to be encoded has no digits and consists solely of alphabetic characters.
-
 // I asked chatGPT to do this algorithm, not suprisingly it did better but I will leave my solution here as well.
 
 function encoder(userInput) {
