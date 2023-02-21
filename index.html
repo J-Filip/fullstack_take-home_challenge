@@ -10,7 +10,9 @@
 
 <body>
   <h1>ENCODER</h1>
+
   <form method="post">
+    <h2>Login</h2>
     <div>
       <label for="email">Email</label>
       <input type="email" name="email" id="email" required>
@@ -25,8 +27,7 @@
   </form>
 
   <script>
-
-    // query elements 
+    // find elements
     const form = document.querySelector('form')
     const submitButton = document.getElementById('submit')
     const emailInput = document.getElementById('email')
@@ -41,7 +42,7 @@
       form.addEventListener('submit', async (e) => {
         e.preventDefault()
         const formData = new FormData(form);
-        const email = formData.get("email")
+        const email = formData.get("email").toLowerCase()
         const password = formData.get("password")
 
         // add event listener with async callback for sending POST request with user email and pass
@@ -76,7 +77,8 @@
       createEncode()
     }
 
-
+    // function that removes login form, creates encoder form, appends it to the DOM 
+    // with the event listener on the send button 
     function createEncode() {
 
       // remove form from DOM
