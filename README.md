@@ -30,13 +30,13 @@ The encode page consists of simple input and a send button.
 
 User inout is sent to the backend and the final results from the encoder are passed to the template and rendered again with the reault shown.
 
-## Solution
+## Solution and diffrent approach
 
 I wasnt sure if I had to strictly follow the chanllenge guidelines. For example, I stored the token iside the cookie in the login middleware and then read it on every POST request to a newly added /encode endopint. 
 
-If I understand correctly, I would have to write my own requests if I didnt make any changes to the given code. In my test branch, I tried this approach. Please read the test branch readme for more info. 
+If I understand correctly, I would have to write my own requests if I didnt make any changes to the given code. In my test branch, I tried this approach. Please read the “seccond attempt” branch readme for more info.
 
-The reason why I made this my final solution is because it seemed a little safer.
+The reason why I made this my final solution is because it seemed like a less of a security threat, it was simpler to implement and I didn’t like how the code looked like in the other approach. If I did it from scratch, I would probably be more comfortable making a single page application. 
 
 ## Struggles
 
