@@ -17,8 +17,7 @@ The algorithm part was interesing as I don’t deal with that kind of tasks much
 
 ### Backend (Node.js)
 
-
-
+I added endpoints for login page, and encoder page. If user authenticated, he is given a token. Token is then stored inside a cookie and then we pass it with every request to our new endpoint /encode with provided, but modified, authentication middleware. 
 
 
 ### Frontend
@@ -35,7 +34,9 @@ User inout is sent to the backend and the final results from the encoder are pas
 
 I wasnt sure if I had to strictly follow the chanllenge guidelines. For example, I stored the token iside the cookie in the login middleware and then read it on every POST request to a newly added /encode endopint. 
 
-If I understand correctly, I would have to write my own requests if I didnt make any changes to the given code. In my test branch, I tried this approach. The reason why I like this solution better because It seemed a little safer. Please read the test branch readme for more info. 
+If I understand correctly, I would have to write my own requests if I didnt make any changes to the given code. In my test branch, I tried this approach. Please read the test branch readme for more info. 
+
+The reason why I made this my final solution is because it seemed a little safer.
 
 ## Struggles
 
@@ -43,11 +44,12 @@ As I am currently focused on the frontend, I had trouble with wrapping my head a
 
 ## What next?
 
-Possible improvments: 
+Possible improvements: 
 
 - optimize the algorithm - measure the performance and see if it can be done faster.
 - add proper authentication - learn to implement own or proven third party solution like firebase auth.
 - add serverside form validation - learn how it works and how to combine it with client side form validation.
+- error handling - we can rederict users if unauthorized
   - learn why, when and how to write tests and add then implement them.
   - add styling, I would like to use tailwind more as I heard its great with component based frameworks. 
 
